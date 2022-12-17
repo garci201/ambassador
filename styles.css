@@ -1,0 +1,177 @@
+/*--CSS FILES-->*/
+
+
+/*Minion Pro Bold
+
+font-family: minion-pro, serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+Minion Pro Bold Italic
+
+font-family: minion-pro, serif;
+
+font-weight: 700;
+
+font-style: italic;
+
+
+Minion Pro Italic
+
+font-family: minion-pro, serif;
+
+font-weight: 400;
+
+font-style: italic;
+
+
+Minion Pro Regular
+
+font-family: minion-pro, serif;
+
+font-weight: 400;
+
+font-style: normal;*/
+
+body {
+font-family: "minion pro";
+margin: 40px;
+color: black;
+}
+@font-face {
+  font-family: "Old London";
+  src: url(OldLondon.ttf);
+}
+.header {
+  font-family: "Old London";
+ text-align: center;
+ font-size: 110pt;
+
+}
+.navbar {
+position: sticky;
+margin: 10px 10px 10px 10px;
+top:0;
+text-align:center;
+background-color: #ffffff;
+font-size: 30pt;
+padding: 10px 10px 10px 10px;
+margin: 10px 10px 10px 10px;
+word-spacing: 40px;
+border-bottom: 2px solid black;
+}
+/* Homepage*/
+.grid-container {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-column-gap: 15px;
+border: 10px solid transparent;
+border-top: 5px solid black;
+border-bottom: 5px solid black;
+font-size: 15pt;
+}
+
+.poem {
+text-align: center;
+line-height: 2;
+border-top: 5px solid black;
+border-right: 5px solid black;
+}
+
+/*Menu*/
+
+.grid-container-menu {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 3;
+grid-column-gap: 15px;
+border: 10px solid transparent;
+border-top: 5px solid black;
+border-bottom: 5px solid black;
+font-size: 15pt;
+}
+/*.appetizers {
+  position: absolute;
+  margin-left: 60px;
+}*/
+/*.menu-sidebar {
+  grid-area: sidebar;
+  width: 40%;
+  text-align: center;
+}*/
+
+.menu-header {
+font-size: 60pt;
+margin-left: 60%;
+}
+.grid-item-1-1 {
+position: sticky;
+top:0;
+left: 0;
+align-self: start;
+grid-column: 1;
+background-color: transparent;
+}
+/*.grid div {
+border: 1px solid rgb (0,95,107);
+border-radius: 3px;
+background-color: rgba (0.95,107,0.8)
+padding: 0.2em;
+color: #fff;*/
+
+.tag {
+margin-left: 40%;
+text-align: center;
+
+}
+
+.grid-container-takenbake {
+display: grid;
+grid-template-columns: 1fr 1fr;
+border-bottom: 5px solid black;
+/*border: 10px solid black;*/
+
+}
+.grid-item-1-take {
+border-right: 5px solid black;
+border-top: 5px solid black;
+border-bottom: 1px solid black;
+}
+.pizza {
+
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+
+}
+
+.historyphoto {
+border-bottom: 5px solid black;
+border-right: 5px solid black;
+}
+
+.wallphoto {
+border-left: 5px solid black;
+border-bottom: 5px solid black;
+
+}
+
+.history {
+  border-left: 5px solid black;
+  border-top: 5px solid black;
+  padding: 5px;
+}
+
+iframe {
+  align-items: center;
+  border: 5px solid black;
+  padding-top: 30px;
+}
+
+.grid-item-2-2 {
+text-align: center;
+border-left: 5px solid black;
+
+}
